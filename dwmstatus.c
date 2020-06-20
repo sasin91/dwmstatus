@@ -130,8 +130,8 @@ int main(void)
 		t2 = gettemperature("/sys/class/hwmon/hwmon4", "temp1_input");
 
 		status = smprintf("T:%s|%s|%s L:%s %s",
-				     t0,t1,t2,avgs,tmcph
-				 );
+				t0,t1,t2,avgs,tmcph
+				);
 		setstatus(status);
 
 		free(t0);
