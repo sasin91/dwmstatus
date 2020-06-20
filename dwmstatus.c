@@ -1,9 +1,4 @@
-/*
- * Copy me if you can.
- * by 20h
- */
-
-#define _BSD_SOURCE
+#define DEFAULT_SOURCE
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
